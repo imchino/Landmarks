@@ -12,10 +12,20 @@ import SwiftUI
 // describes the view’s content and layout.
 struct ContentView : View {
     var body: some View {
-        Text("Turtle Rock")
+        VStack(alignment: .leading) {
+            Text("Turtle Rock")
             // call modifier to costomize.
-            .font(.title)
-            .color(.black)
+                .font(.title)
+                .color(.black)
+            HStack {
+                Text("Joshua Tree National Park")
+                    .font(.subheadline)
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
+                }
+        }
+        .padding()
     }
 }
 
