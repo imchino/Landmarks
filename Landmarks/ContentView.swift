@@ -14,7 +14,7 @@ struct ContentView : View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("Turtle Rock")
-            // call modifier to costomize.
+                // call modifier to costomize.
                 .font(.title)
                 .color(.black)
             HStack {
