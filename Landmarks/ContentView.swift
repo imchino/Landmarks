@@ -12,7 +12,10 @@ import SwiftUI
 // describes the view’s content and layout.
 struct ContentView : View {
     var body: some View {
-        Text("Hello SwiftUI!")
+        Text("Turtle Rock")
+            // call modifier to costomize.
+            .font(.title)
+            .color(.black)
     }
 }
 
