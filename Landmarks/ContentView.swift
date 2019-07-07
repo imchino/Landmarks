@@ -8,13 +8,16 @@
 
 import SwiftUI
 
+// conforms to the View protocol.
+// describes the view’s content and layout.
 struct ContentView : View {
     var body: some View {
-        Text("Hello World")
+        Text("Hello SwiftUI!")
     }
 }
 
 #if DEBUG
+// declares a preview for that view.
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
         ContentView()
